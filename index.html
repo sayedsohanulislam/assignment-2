@@ -84,16 +84,20 @@
 
     <section id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden flex flex-col items-center text-center">
         <div class="absolute inset-0 z-0">
-            <img src="./assets/hero-bg.png" alt="Background" class="w-full h-full object-cover opacity-110">
+            <img src="./assets/hero-bg.png" alt="Background" class="w-full h-full object-cover opacity-100 mix-blend-lighten">
             <div class="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background"></div>
         </div>
 
         <div class="container mx-auto px-6 relative z-10 flex flex-col items-center">
             
-            <div class="relative w-56 h-56 lg:w-72 lg:h-72 mb-10 group animate-float">
-                <img src="./assets/hero-circle.png" alt="TechWave Podcast" class="w-full h-full object-contain drop-shadow-[0_0_30px_rgba(217,70,239,0.4)]">
+            <div class="relative w-56 h-56 lg:w-72 lg:h-72 mb-10 group animate-float flex items-center justify-center">
+                <img src="./assets/hero-circle.png" alt="TechWave Podcast" class="absolute inset-0 w-full h-full object-contain drop-shadow-[0_0_30px_rgba(217,70,239,0.4)]">
                 
-                <div class="absolute top-4 right-8 translate-x-1/2 -translate-y-1/2 bg-accent text-background text-xs font-extrabold px-3 py-1 rounded-full shadow-lg border-2 border-background z-20">
+                <div class="relative z-10 w-24 h-24 lg:w-32 lg:h-32">
+                     <img src="./assets/microphone.png" alt="Microphone" class="w-full h-full object-contain brightness-0 invert">
+                </div>
+                
+                <div class="absolute top-4 right-8 translate-x-1/4 -translate-y-1/4 bg-accent text-background text-xs font-extrabold px-3 py-1 rounded-full shadow-lg border-2 border-background z-20">
                     NEW
                 </div>
             </div>
@@ -111,6 +115,7 @@
                     Listen On Spotify
                 </button>
                 <button class="flex items-center justify-center gap-2 px-8 py-3.5 rounded-full border border-gray-600 hover:border-primary text-white font-bold hover:bg-white/5 transition-all">
+                    <img src="./assets/message.png" alt="Message" class="w-5 h-5">
                     Subscribe
                 </button>
             </div>
@@ -268,7 +273,7 @@
                     <h3 class="text-2xl font-bold mb-2 text-white">Alex Kumar</h3>
                     <p class="text-primary font-medium mb-6">Tech Entrepreneur & Productivity Expert</p>
                     <p class="text-gray-400 leading-relaxed mb-8">
-                        Lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.
+                        Lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. [cite_start]Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech. [cite: 106-111]
                     </p>
                     
                     <div class="flex justify-center lg:justify-start gap-4">
